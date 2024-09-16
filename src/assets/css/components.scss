@@ -1,0 +1,168 @@
+@import url('./../font/font.css');
+body{
+    overflow-x: hidden;
+}
+.btn-box{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 32px;
+    &:hover{
+        .btn{
+        // background: #004080;
+        // color: #fff ;
+        border-radius: 33px 0px 0px 33px;
+        }
+        
+        .box-1{
+            // background:#004080;
+            path{
+
+                // fill:#004080
+            }
+        }
+        
+        .box-2{
+            right: -27px;
+            background:#F6821F;
+            path{
+
+                // fill:#004080
+            }
+        }
+    }
+    .btn{
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 144.444% */
+        text-transform: capitalize;
+        padding: 7px 25px;
+        border-radius: 33px 53px 0px 33px;
+        background: #F6821F;
+        position: relative;
+        display: flex;
+        transition: all .3s linear;
+       &:active{
+        background-color: #F6821F;
+       }
+        
+    }
+    .box-1{
+        position: absolute;
+        bottom: 0px;
+        right: -26px;
+    }
+    .box-2{
+        position: absolute;
+        bottom: 0px;
+        right: -32px;
+        border-radius: 0 11px;
+        transition: all .3s linear;
+    }
+}
+
+.title{
+    span{
+        color: #000;
+
+        /* Body 1 -  18px Reg */
+        font-family: Gilroy-Regular;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 144.444% */
+        text-transform: capitalize;
+    }
+    h2{
+        color: #004080;
+        font-family: Gilroy-SemiBold;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px; /* 119.048% */
+    }
+    p{
+        color: #2B2B2B;
+        font-family: Gilroy-Regular;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 144.444% */
+    }
+}
+
+.breadcrumb{
+    background-image: url("./../img/bread.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    &::before{
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.68) 37.09%, rgba(0, 0, 0, 0.35) 102.16%);
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .container{
+        position: relative;
+        z-index: 1;
+        .row{
+            .bread-content{
+                .title{
+                    color: #FFF;
+                    font-family: Gilroy-SemiBold;
+                    font-size: 52px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 60px; /* 115.385% */
+                    letter-spacing: 1.04px;
+                    margin-bottom: 50px;
+                    &::after{
+                        content: "";
+                        position: relative;
+                        margin-top: 10px;
+                        height: 1px;
+                        width: 100%;
+                        display: block;
+                        background: linear-gradient(90deg, #F6821F 22.33%, rgba(246, 130, 31, 0.00) 85.59%);
+                    }
+                }
+              
+               
+                ul{
+                    display: flex;
+                    list-style: none;
+                    gap: 7px;
+                    padding: 0;
+                    li{
+                        a{
+                            color: #FFF;
+                            text-decoration: none;
+                            font-family: Gilroy-Regular;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px; /* 150% */
+                            text-transform: uppercase;
+                        }
+                    }
+                    li.active{
+                        color: #F6821F;
+                        font-family: Gilroy-Medium;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px; /* 150% */
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}

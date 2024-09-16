@@ -1,0 +1,1408 @@
+@media (max-width: 991px){
+    .banner-container{
+        .owl-theme{
+            .item {
+                .container{
+                    .row {
+                        
+                        .containt{
+                            padding: 57px 0;
+
+                        }
+                        .side-content {
+                            .img-box {
+                                // height: 600px;
+                                img{
+                                    width: 100%;
+                                }
+                                .item-img{
+                                 
+                                    
+                                }
+                                .img1{
+                                    height: fit-content;
+                                    img{
+                                        height: 400px;
+                                        width: auto;
+                                    }
+                                    &::after{
+                                        height: 353px;
+                                        width: 353px;
+                                    }
+                                    &::before{
+                                        height: 390px;
+                                        width: 390px;
+                                    
+                                    }
+                                    .item1{
+                                        top: 70px;
+                                    }
+                                    .item2{
+                                        top: 72px;
+                                        right: 6%;
+                                    }
+                                    .item4{
+                                        top: 411px;
+                                    }
+                                }
+                                .img2{
+                                    height: fit-content;
+                                    top: 235px;
+                                    img{
+                                        height: 200px;
+                                        width: auto;
+                                    }
+                                }
+                                .img3{
+                                    height: fit-content;
+                                    top: 300px;
+                                    right: 10%;
+                                    img{
+                                        height: 200px;
+                                        width: auto;
+                                    }
+                                }
+                            }
+                        }
+                        .back-img{
+                            .back1{
+                                left: 0%;
+                            }
+                            .back2{
+                                top: 0;
+                                left: 30px;
+                            }
+                            .back3{
+                                right: 0;
+                            }
+                            .back4{
+                                left: 29%;
+                            }
+                            .back22{
+                                right: 46%;
+                            }
+                            .back21{
+                                top: 79%;
+                                left: -5%;
+                                right: auto;
+                            }
+                        } 
+                    }
+                   
+                }
+            }
+            .item11 {
+                .container{
+                    .row {
+                        
+                        .containt{
+                            padding: 57px 0;
+
+                        }
+                        .side-content {
+                            .img-box {
+                                height: 600px;
+                                .item-img{
+                                 
+                                    
+                                }
+                                .img1{
+                                    height: fit-content;
+                                    img{
+                                        height: 400px;
+                                        width: auto;
+                                    }
+                                    &::after{
+                                        height: 353px;
+                                        width: 353px;
+                                    }
+                                    &::before{
+                                        height: 390px;
+                                        width: 390px;
+                                    
+                                    }
+                                    .item1{
+                                        top: 70px;
+                                    }
+                                    .item2{
+                                        top: 72px;
+                                        right: 6%;
+                                    }
+                                    .item4{
+                                        top: 411px;
+                                    }
+                                }
+                                .img2{
+                                    height: fit-content;
+                                    top: 235px;
+                                    img{
+                                        height: 200px;
+                                        width: auto;
+                                    }
+                                }
+                                .img3{
+                                    height: fit-content;
+                                    top: 300px;
+                                    right: 10%;
+                                    img{
+                                        height: 200px;
+                                        width: auto;
+                                    }
+                                }
+                            }
+                        }
+                        .back-img{
+                            .back1{
+                                left: 0%;
+                            }
+                            .back2{
+                                top: 0;
+                                left: 30px;
+                            }
+                            .back3{
+                                right: 0;
+                            }
+                            .back4{
+                                left: 29%;
+                            }
+                            .back22{
+                                right: 46%;
+                            }
+                            .back21{
+                                top: 79%;
+                                left: -5%;
+                                right: auto;
+                            }
+                        } 
+                    }
+                   
+                }
+            }
+            .item22{
+                background-image: none;
+                .container{
+                    .row{
+                       .side-content{
+                        .img-box{
+                            display: flex;
+                            justify-content: flex-end;
+                            .img4{
+                                display: block;
+                            //  height: 550px;   
+                             img{
+                                // height: 100%;
+                                object-fit: contain;
+                                width: 100%;
+                              
+                             }
+                            }
+                        }
+                         .back-img {
+                            .back13 {
+                                right: auto;
+                                left: 106px;
+                            }
+                            .back7{
+                                right: auto;
+                                left: 350px;
+                            }
+                            .back12{
+                                right: 261px;
+                            }
+                            .back15{
+                                right: 282px;
+                            }
+                            .back17{
+                                right: 347px;
+                            }
+                        }
+                       } 
+                    }
+                }
+            }
+        }
+    }
+    .about {
+        .container {
+            .row {
+                flex-direction: column-reverse;
+                .content{
+                    margin-bottom: 50px;
+                    .title{
+                        text-align: center;
+                    }
+                    .usp{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    
+                    }
+                }
+                .img-content{
+                    // height: 600px;
+                    img{
+                        height: 100%;
+                       }
+                }
+            }
+        }
+    }
+    .footer{
+         .footer-content{
+            .container{
+                .row{
+                    gap: 20px 0;
+                    .footer-cont{
+                        padding-left: 40px;
+                    
+                    }
+                }
+            }
+             .footer-bg{
+                display: none;
+            }
+        }
+    }
+    .cta{ 
+        .ctabanner{
+            padding: 80px 0 300px;
+        }
+        .backcta{
+            .img1{
+                height: auto;
+            }
+            .img2{
+                display: none;
+            }
+            .img3{
+                top: auto;
+                bottom: 0;
+                height: auto;
+            }
+            .img4{
+                position: absolute;
+                right: 0;
+                display:block;
+                bottom: 0;
+                z-index: -1;
+            }
+        }
+    }
+    .about-page{
+        .container{
+            .page{
+      
+                .row{
+                  
+                    .connt{
+                        
+                        
+                        h4{
+                    
+                        }
+                        p{
+                 
+                        }
+                        .img{
+                       
+                        }
+                    }
+                    .connt-2{
+                        margin-top: 0 !important;
+                    }
+                    .connt-3{
+                        margin-top: 0 !important;
+                    }
+                    
+                    
+                }
+            }
+        }
+    }
+    .breadcrumb{
+   
+        .container{
+         
+            .row{
+                justify-content: center;
+        
+            }
+        }
+    }
+    .contact-page{
+        .page{
+            .container{
+                .row.backimg{
+                    .cont{
+                        p{
+                            display: block !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bharatsat{ 
+        .page{ 
+            .imggallary{ 
+                .row{
+                    gap: 10px 0;
+                    .leftimg{
+                        align-items: center !important;
+                        img{
+                            width: fit-content;
+                            height: fit-content;
+                        }
+                    }
+                    .rightimg{
+                        align-items: center !important;
+                        img{
+                            width: fit-content;
+                            height: fit-content;
+                        }
+                    }
+                    .centerimg{
+                        img{
+                            width: fit-content;
+                            height: fit-content;
+                        }
+                    }
+                }
+             
+            }
+        }
+    }
+    .joinus{ 
+        .page{ 
+            .joinus{ 
+                .container{ 
+                    .row{ 
+                        .cta{ 
+                            .row {
+                                .joincontent{ 
+                                    h3{
+                                    
+                                    }
+                                }
+                            }
+                        }
+                        .contact2{ 
+                            width: 100% !important;
+                            img{
+                                width: 100% !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    .banner-container{
+        .owl-theme{
+            .item{
+                .container{
+                    .row{
+                        .side-content{ 
+                            .img-box{ 
+                                .img1{ 
+                                    .item{
+                                        .item1{
+                                            top: 70px;
+                                        }
+                                        .item2{
+                                            top: 76px;
+                                        }
+                                        .item4{
+                                            top: 413px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .back-img{
+                            .back21{
+                                top: 79%;
+                                left: 24%;
+                            }
+                            .back22{
+                                top: 6%;
+                                left: 33%;
+                                right: auto;
+                            }
+                        }
+                    }
+                }
+            }
+            .item11 {
+                .container{ 
+                    .row{ 
+                        .back-img{ 
+                            .back1{
+                                left: 0%;
+                            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .cta{ 
+        .ctabanner{
+            padding: 105px 0 240px;
+        }
+        .backcta{
+            height: 100%; 
+            .img1{
+                img{
+                    height: 200px;
+                }
+            }
+            .img2{
+                display: none;
+                svg{
+                    height: 350px;
+                }
+            }
+            .img3{
+                top: auto;
+                z-index: 1;
+                height: fit-content;
+                bottom: 0;
+                img{
+                    height:335px;
+                }
+            }
+            .img4{
+                display: block;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                
+            }
+        }
+    }
+    .joinus{ 
+        .page{ 
+            .joincta{ 
+                .container{ 
+                    .cta{ 
+                        .row{ 
+                            .joincontent{ 
+                                h3{
+                                    font-size: 32px !important;
+                                    line-height: 41px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .excellence{ 
+                .container{ 
+                    .row{ 
+                        gap: 20px 0;
+                        .choice{ 
+                            .row{ 
+                                .rewards2{
+                                    flex-direction: column;
+                                    gap: 35px 45px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+.studernt-resitration{ 
+    .page{ 
+        .box{ 
+            .container{ 
+                .form {
+                    form {
+                        .tab-container{ 
+                            .nav-item{
+                            &:nth-child(2){
+                                &::before{
+                                    display: none;
+                                    
+                                }
+                                .nav-link.active{
+                                    &::before{
+                                     
+                                        display: none;
+                                    }
+                                }
+                            }
+                            &:last-child{
+                                &::before{
+                                  
+                                    display: none;
+                                }
+                                .active{
+                                    &::before{
+                                        display: none;
+                                        
+                                    }
+                                }
+                            }
+                        }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+                    
+                           
+}
+@media (max-width: 580px) {
+    .banner-container{ 
+        .owl-theme{ 
+            .item11{ 
+                .container{ 
+                    .row{ 
+                        .back-img{ 
+                            .back1{
+                                left: auto;
+                                right: 5%;
+                                top: -5%;
+                            }
+                            .back4{
+                                top: 78%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 580px) and (min-width: 425px) {
+    .cta{ 
+        .ctabanner{
+            padding: 125px 0 293px;
+        }
+        .backcta{
+    
+            .img1{
+                img{
+
+                }
+            }
+            .img2{
+
+                svg{
+         
+                }
+            }
+            .img3{
+               
+      
+                img{
+                  
+                }
+            }
+            .img4{
+              svg{
+               
+              }
+                
+            }
+        }
+    }
+}
+@media (max-width: 430px){
+    .banner-container{
+        .owl-theme{
+            .item11{
+                .container{
+                    .row{
+                        .side-content{ 
+                            .img-box{ 
+                                height: 600px;
+                                .img1{ 
+                                    .item{
+                                        .item1{
+                        
+                                        }
+                                        .item2{
+                                   
+                                        }
+                                        .item4{
+                                
+                                        }
+                                    }
+                                }
+                                .img3{
+                                    right: 0;
+                                }
+                            }
+                        }
+                        .back-img{
+                            .back1{
+                                top: -10%;
+                                right: 5%;
+                            }
+                            .back21{
+                             
+                            }
+                            .back22{
+                           
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .about{ 
+        .container{ 
+            .row {
+                .img-content{
+                    height: 490px;
+                   img{
+                    height: 100%;
+                   }
+                }
+            }
+        }
+    }
+    .about-page {
+        .container{ 
+            .page{ 
+                .row{ 
+                    .connt{
+                        padding: 25px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 425px){
+    .banner-container{
+        .owl-theme{
+             .item{ 
+                .container{ 
+                    .row{ 
+                        .side-content{
+                            .img-box{
+                                // height: 500px;
+                                 .img3{
+                                    right: 0;
+                                 }
+                                 .img5{
+                                    top: 62px;
+                                    right: 1%;
+                                        
+                                     .position-relative{
+                                         img{
+                                            height: 336px;
+                                         }
+                                         .bg-round{
+                                            height: 347px;
+                                            width: 211px;                                     
+                                         }
+                                    }
+                                }
+                                 
+                                 .img6{
+                                    left: 0;
+                                    top: 110px;
+                                    .position-relative{
+                                         img{
+                                            height: 282px;
+                                         }
+                                         .bg-round{
+                                            height: 280px;
+                                            width: 175px;                                        
+                                         }
+                                    }
+                                 }
+                            }
+                        }
+                        .back-img{ 
+                            .back1{
+                                left: auto;
+                                right: 10%;
+                                top:-50px;
+                            }
+                            .back2{
+                                left: 23px;
+                            }                        
+                            
+                            .back3{
+                                right: 16px;
+                                top: 0%;
+                            }
+                            .back4{
+                                left: 0;
+                                top: 90%;
+                            }
+                            .back21{
+                                left:11%
+                            }
+                            .back22{
+                                top: 0;
+                            }
+                            .back23{
+                                top: 9%;
+                                right: 4%;
+                                                        
+                            }
+                        }
+                    }
+                }
+            }
+            .item22{
+                .container{ 
+                    .row{ 
+                        .side-content{ 
+                            .img-box {
+                                align-items: flex-end;
+                                .img4{
+                                    // height: 423px;
+                                }
+                            }
+                            .back-img{ 
+                                .back5{
+                                    top: 0px;
+                                    left: 108px;
+                                }
+                                .back6{
+                                    top: 19px;
+                                    left: 18px;                                
+                                }
+                                .back7{
+                                    top: 20px;
+                                    left: 113px;
+                                }
+                                .back8{
+                                    top: 56px;
+                                    left: 171px;                              
+                                }
+                                .back9{
+                                    top: 98px;
+                                    left: 1px;
+                                }
+                                .back10{
+                                    top: -31px;
+                                    left: 202px;
+                                }
+                                .back11{
+                                    top: -94px;
+                                    left: 285px;                                
+                                }
+                                .back12{
+                                    top: 106px;
+                                    right: 255px;                           
+                                }
+                                .back13{
+                                    display: none;
+                                }
+                                .back14{
+                                    top: 230px;
+                                    left: -25px;
+                                }
+                                .back15{
+                                    top: 164px;
+                                     right: 151px; 
+                                }
+                                .back16{
+                                    left: auto;
+                                    top: 18px;
+                                    right: 0;
+
+                                }
+                                .back17{
+                                    right: auto;
+                                    left: 0;
+                                    top: 403px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .about{ 
+        .container{ 
+            .row {
+                .img-content{
+                    height: 470px;
+                   img{
+                    height: 100%;
+                   }
+                }
+            }
+        }
+    }
+    .about-app{ 
+        .container{ 
+            .bg{ 
+                .row{ 
+                    .qeimg2{
+                        margin-right: 0;
+                        img{
+                            height: 90px;
+                        }
+                    }
+                    .content{ 
+                        .qr{
+                            flex-direction: column;
+                            align-items: flex-start;
+                            .add{
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .title{
+        h2{
+            line-height: 36px;
+            font-size: 31px;
+        }
+    }
+    .cta{ 
+        .ctabanner{
+            padding: 182px 0 309px;
+        }
+        .backcta{
+    
+            .img1{
+                img{
+
+                }
+            }
+            .img2{
+
+                svg{
+         
+                }
+            }
+            .img3{
+                bottom: 0;
+                height: fit-content;
+      
+                img{
+                    height: 303px;
+                }
+            }
+            .img4{
+              svg{
+                height: 270px;
+              }
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 375px){
+
+    .banner-container{
+        .owl-theme{ 
+            .item{
+                .container{
+                    .row{
+                        .containt{ 
+                            h3{
+                                font-size: 40px;
+                                line-height: 47px;
+                                letter-spacing: 0.96px;
+                            }
+                        }
+                        .side-content{
+                            .img-box{ 
+                                .img1{
+                                    img{
+                                        height: 300px;
+                                    }
+                                    &::before{
+                                        height: 280px;
+                                        width: 280px;
+                                        top: 34px;
+
+                                    }
+                                    &::after{
+                                        height: 250px;
+                                        width: 250px;
+                                    }
+                                    .item{
+                                        .item1{
+                                            top: 57px;
+                                        }
+                                        .item2{
+                                            top: 68px;
+                                        }
+                                        .item3{
+                                            right: -5%;
+                                        }
+                                        .item4{
+                                            top: 180px;
+                                            right: auto;
+                                            left: -20px;
+                                        }
+                                    }
+                                }
+                                .img2{
+                                    top: 207px;
+                                    left: 0;
+                                    img{
+                                        height: 173px;
+                                    }
+                                }
+                                .img3{
+                                    top: 257px;
+                                    img{
+                                        height: 173px;
+                                    }
+                                }
+                            }
+                        }
+                        .back-img{ 
+                            .back4{
+                                left: 21%;
+                                top: 67%;
+                            }
+                        }
+                    }
+                }
+            }
+            .item11{ 
+                .container{ 
+                    .row{ 
+                        .side-content{ 
+                            .img-box{
+                               .img1{
+                                top: 10%;
+                               }
+                               .img2{
+                                top: 272px;
+                               }
+                               .img3{
+                                top: 320px;
+                               }
+                            }
+                        }
+                        .back-img{
+                             .back4{
+                                top: 84%;
+                            }
+                            .back1{
+                                top: -39px;
+                                right: 24%;
+                            }
+                            .back2{
+                                top: 5%;
+                            }
+                        }
+                    }
+                }
+            }
+            .item22{ 
+                .container{ 
+                    .row{ 
+                        .side-content{ 
+                            .back-img{ 
+                                .back5{
+                                    top: -27px;
+                                }
+                                .back6{
+                                    top: -15px;
+                                }
+                                .back7{
+                                    top: -3px;
+                                    left: 108px;
+                                }
+                                .back8{
+                                    left: 129px;
+                                }
+                                .back9{
+                                    top: 55px;
+                                }
+                                .back11{
+                                    left: auto;
+                                    right: 20px;
+                                }
+                                .back12{
+                                    top: 140px;
+                                    right: auto;
+                                }
+                                .back14{
+                                    top: 250px;
+                                    svg{
+                                        height: 135px;
+                                    }
+                                }
+                                .back15{
+                                    svg{
+                                        height: 130px;
+                                    }
+                                }
+                                .back17{
+                                    left: -16px;
+                                    top: 384px;
+                                    svg{
+                                        height: 75px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .about{
+        .container{
+            .row{ 
+                .img-content{
+                    height: 408px;
+                    img{
+                        height: 100%;
+                       }
+                }
+            }
+        }
+    }
+    .about-app{ 
+        .container{ 
+            .bg{ 
+                .row{ 
+                    .content{
+                        padding: 0 24px 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px){
+    .banner-container{
+         .owl-theme{
+             .item{
+                 .container{
+                     .row{
+                         .containt{
+                             h3{
+                                font-size: 36px;
+                                line-height: 45px;
+                        
+                             }
+                        }
+                        .back-img{
+                             .back1{
+                                right: 10%;
+                                top: -84px;
+                            }
+                            .back4{
+                                left: 7%;
+                                top: 81%;
+                            }
+                            .back21{
+                                top: 79%;
+                                svg{
+                                    height: 69px;
+                                }
+                            }
+                        }
+                        
+                            .side-content{ 
+                                .img-box{ 
+                                    .img1{ 
+                                        img{
+                                            height: 249px;
+                                        }
+                                        &::after{
+                                            height: 200px;
+                                            width: 200px;
+                                        }
+                                        &::before{
+                                            height: 230px;
+                                            width: 230px;
+                                        }
+                                         .item{
+                                             .item1{
+                                                top: 53px;
+                                             }
+                                             .item2{
+                                                top: 64px;
+                                             }
+                                             .item3{
+                                                top: 201px;
+                                             }
+                                             .item4{
+                                                left: -13px;
+
+                                             }
+                                        }
+                                    }
+                                    .img2{
+                                        img{
+                                            height: 142px;
+                                        }
+                                    }
+                                    .img3{
+                                        top: 220px;
+                                        img{
+                                            height: 155px;
+                                        }
+                                    }
+                                    .img5{ 
+                                        top: 72px;
+                                        .position-relative{ 
+                                            img{
+                                                height:236px
+                                            }
+                                            .bg-round{
+                                                height: 245px;
+                                                width: 143px;
+                                            }
+                                        }
+                                    }
+                                    .img6{ 
+                                        top: 100px;
+                                        // left: -12px;
+                                        .position-relative{ 
+                                            img{
+                                                height: 200px;
+                                                padding-right: 0;
+                                            }
+                                            .bg-round{
+                                                height: 201px;
+                                                width: 137px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                    }
+                }
+            }
+            .item22{ 
+                .container{ 
+                    .row{ 
+                        .side-content{ 
+                            .back-img{ 
+                                height: 397px;
+                                .back5{
+                                    left: 79px;
+                                    top: -35px;
+                                    svg{
+                                        height: 30px;
+                                    }
+                                }
+                                .back6{
+                                    top: -30px;
+                                    left: 0;
+                                    svg{
+                                        height: 60px;
+                                    }
+                                }
+                                .back7{
+                                    top: -3px;
+                                    left: 82px;
+                
+                                    svg{
+                                        height: 70px;
+                                    }
+                                }
+                                .back8{
+                                    left: 72px;
+                                    top: 65px;
+                                  svg{
+                                    height: 90px;
+                                  }
+                                }
+                                .back9{
+                                    top: 34px;
+                                    svg{
+                                        height: 88px;
+                                    }
+                                }
+                                .back10{
+                                    top: -48px;
+                                    left: 151px;
+                                
+                                    svg{
+                                        height: 46px;
+                                    }
+                                }
+                                .back11{
+                                  svg{
+                                    height: 100px;
+                                  }
+                                }
+                                .back12{
+                                    top: 114px;
+                                  svg{
+                                    height: 62px;
+                                  }
+                                }
+                                .back14{
+                                    left: -52px;
+                                    svg{
+                                        height: 116px;
+                                    }
+                                }
+                                .back15{
+                                        top: 154px;
+                                    svg{
+                                        height: 120px;
+                                    }
+                                }
+                                .back16{    
+                                    svg{
+                                        height: 63px;
+                                    }
+                                }
+                                .back17{
+                                    left: -38px;
+                                    top: 362px;
+                                
+                                    svg{
+                                        height: 45px;
+                                    }
+                                }
+                              
+                            }
+                        }
+                    }
+                }
+            }
+            .item3{ 
+                .container{ 
+                    .row{ 
+                        .side-content{ 
+                            .img-box{
+                                // height: 400px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .about{ 
+        .container{ 
+            .row{ 
+                .content{
+                     .usp{
+                         .point{
+                             h4{
+                                font-size: 17px;
+                            }
+                        }
+                    }
+                }
+                .img-content{
+                    height: 390px;
+                    img{
+                        height: 100%;
+                       }
+                }
+            }
+        }
+    }
+    .cta {
+        .backcta{ 
+            .img1{
+                 img{
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+    .package{ 
+        .container{ 
+            .box{ 
+                .tabs{ 
+                    .owl-item{ 
+                        .item{ 
+                            .row{ 
+                                .packbox{ 
+                                    .packcontent{ 
+                                        .prise{
+                                            .rupees{
+                                                gap: 5px;
+                                                h5{
+                                                    font-size: 25px;
+                                                }
+                                                del{
+                                                    margin-bottom: 6px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn-box {
+        .btn {
+            font-size: 10px;
+            padding: 7px 16px;
+            line-height: 15px;
+
+         }
+         .box-1{
+            width: 27px;
+            right: -21px;
+
+         }
+         .box-2{
+            height: 31px;
+         }
+}  
+    .about-app{ 
+        .container{ 
+            .bg{ 
+                .row{ 
+                    .content{ 
+                        h4{
+                            font-size: 22px;
+                        }
+                        p{
+                            font-size: 16px;
+                            line-height: 20px;
+                        }
+                    }
+                    .img5{ 
+                        margin-bottom: -30px;
+                        img{
+                            height: 262px;
+                        }
+                    }
+                    .qeimg2{ 
+                        img{
+                            height: 75px;
+                        }
+                        h4{
+                            font-size: 16px;
+                            line-height: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

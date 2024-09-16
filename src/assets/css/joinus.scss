@@ -1,0 +1,296 @@
+@import url('./../font/font.css');
+.joinus{
+    .page{
+        .howcan{
+            padding: 70px 0;
+            .row{
+                .join{
+                    padding: 50px 100px 50px 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    align-content: flex-start;
+                    justify-content: center;
+                    height: 100%;
+                    h2{
+                        color: #004080;
+                        font-family: Gilroy-SemiBold;
+                        font-size: 42px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 42px; 
+                        text-transform: capitalize;
+                        margin-bottom: 20px;
+                    }
+                    p{
+                        color: #000;
+                        font-family: Gilroy-Regular;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px; 
+                    }
+                }
+                .para{
+                    border-radius: 30px;
+                    background: #FFE6CE;
+                    padding: 50px 30px 50px 160px;
+                    position: relative;
+                    p{
+                        color: #000;
+                        font-family: Gilroy-Regular;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px; 
+                    }
+                    .cordinater{
+                        position: absolute;
+                        bottom: 0;
+                        left: -150px;
+                    }
+                }
+            
+            }
+        }
+        .catagary{
+            background: #F4F4F4;
+            padding: 70px 0;
+            .container{
+                .title{
+                    margin-bottom: 20px;
+                }
+                .catagarybox{
+                    .direct{
+                        .row{
+                            .cordinatetitle{
+                                h3{
+                                    color: #001D39;
+                                    font-family: Gilroy-SemiBold;
+                                    font-size: 32px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                    text-transform: capitalize;
+                                    padding-left: 12px;
+                                    border-left: 5px solid #E05A33;
+                                }
+                            }
+                            .cordpara{
+                                p{
+                                    color: #000;
+                                    font-family: Gilroy-Regular;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 24px; /* 150% */
+                                }
+                            }
+                        }
+                    }
+                    .indirect{
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+        .excellence{
+            padding: 70px 0;
+            .container{
+                .row{
+                    .choice{
+                        .row{
+                            .recognizing{
+                                padding: 20px;
+                                border-radius: 30px;
+                                h4{
+                                    color: #001D39;
+                                    font-family: Gilroy-SemiBold;
+                                    font-size: 24px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                    text-transform: capitalize;
+                                }
+                                p{
+                                    color: #000;
+                                    font-family: Gilroy-Regular;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 24px; /* 150% */
+                                }
+                            }
+                            .path{
+
+                            }
+                            .rewards{
+                                background: #DCFFD3;
+                            }
+                            .rewards2{
+                                background: #D6F6FF;
+                                display: flex;
+                                gap: 0 30px;
+                                .cont{
+                                    h4{
+
+                                    }
+                                    p{
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .key{
+                        height: 100%;
+                        border-radius: 30px;
+                        background: #F6FFD2;
+                        padding: 20px;
+                        h4{
+                            color: #001D39;
+                            font-family: Gilroy-SemiBold;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-transform: capitalize;
+                        }
+                        p{
+                            color: #000;
+                            font-family: Gilroy-Regular;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px; /* 150% */
+                        }
+                        .img{
+                            width: 100%;
+                            display: flex;
+                            justify-content: flex-end;
+                        }
+                    }
+                }
+            }
+        }
+        .joinus{
+            padding: 70px 0;
+          
+            .container{
+                .row{
+                    gap: 20px 0;
+                    .jpinusform{
+                        background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(222deg, rgba(0, 123, 195, 0.64) 19.21%, rgba(0, 58, 151, 0.89) 101.03%);
+                        padding: 40px;
+                        border-radius: 30px;
+                        position: relative;
+                        height: 100%;
+                        h3{
+                            color: #FFF;
+                            font-family: Gilroy-SemiBold;
+                            font-size: 42px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 42px; /* 100% */
+                            text-transform: capitalize;
+                            margin-bottom: 30px;
+                        }
+                        form{
+                            .form-box{
+                                margin-bottom: 20px;
+                                label{
+                                    color: #FFF;
+                                    font-family: Gilroy-SemiBold;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                    text-transform: capitalize;
+                                }
+                                .form-control{
+                                    background-color: transparent;border: none;
+                                    border-bottom: 1px solid #fff;
+                                    border-radius: 0;
+                                    padding: 10px 0;
+                                    color: #fff;
+                                    &:focus{
+                                        box-shadow: none;
+                                    }
+                                    &::placeholder{
+                                        color: #fff;
+                                    }   
+                                    &:hover{
+                                        cursor: pointer;
+                                    }                            
+                                 }
+                            }
+                        }
+                        .log{
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            height: 160px;
+                            width: 160px;
+                            display: block;
+                            img{
+                                height: 100%;
+                            }
+                        }
+                    }
+                    .contact2{
+                        height: 550px;
+                        width: 546px;
+                        img{
+                            height: 100%;
+                            // width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .joincta{
+            padding: 70px 0;
+            .container{
+                .cta{
+                    padding: 30px;
+                    border-radius: 30px;
+                    background: #A98AFF;
+                    .row{
+                        .joincontent{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            height: 100%;
+                            h3{
+                                color: #FFF;
+                                font-family: Gilroy-SemiBold;
+                                font-size: 36px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 45px; /* 125% */
+                            }
+                            p{
+                                color: #FFF;
+                                font-family: Gilroy-Regular;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 28px; /* 175% */
+                            }
+                        }
+                        .img{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            img{
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+     
+    }
+}

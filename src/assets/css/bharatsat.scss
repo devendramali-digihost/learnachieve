@@ -1,0 +1,125 @@
+@import url("./../font/font.css");
+.bharatsat{
+    .page{
+    
+            .imggallary{
+                padding: 50px 0 0;
+                .leftimg{
+                    display: flex;
+                    gap: 20px;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    align-content: space-around;
+                    align-items: flex-end;
+                    img{
+                        height: fit-content;
+                        width: fit-content;
+                    }
+                    .img2{
+                        height: 157px;
+                        width: fit-content;
+                    }
+                }
+                .centerimg{
+                    display: flex;
+                    justify-content: center;
+                 
+                }
+                .rightimg{
+                    display: flex;
+                    gap: 20px;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-content: space-around;
+                    align-items: flex-start;
+                    img{
+                        height: fit-content;
+                    }
+                }
+            }
+            .highlight{
+                padding: 50px 0;
+                .highbox{
+                    margin-top: 50px;
+                    .row{
+                        gap: 20px 0;
+                        .cont{
+                            padding: 40px;
+                            border-radius: 30px;
+                            background: #F6FFD2;
+                            h4{
+                                color: #001D39;
+                                font-family: Gilroy-SemiBold;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                text-transform: capitalize;
+                                span{
+                                    color: #001D39;
+                                    font-family: Gilroy-SemiBold;
+                                    font-size: 45px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                    text-transform: capitalize;
+                                }
+                            }
+                            p{
+                                color: #000;
+                                font-family: Gilroy-Regular;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 24px; /* 150% */
+                            }
+                        }
+                        .box1{
+                            background: #F6FFD2;
+                        }
+                        .box2{
+                            background: #DAFFFF;
+                        }
+                        .box3{
+                            background: #FFE8E8;
+                        }
+                        .box4{
+                            background: #FFF5DA;
+                        }
+                    }
+                }
+            }
+            .benefits{
+                padding: 50px 0;
+                background: #F3F3F3;
+                .list{
+                    margin-top: 30px;
+                    ul{
+                        padding: 0;
+                        list-style: none;
+                        li{
+                            display: flex;
+                            svg{
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .satcta{
+                padding: 70px 0;
+                .container{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    p{
+                        text-align: center;
+                    }
+                    .btn-box{
+                        margin-top: 10px;
+                    }
+                }
+            }
+    }
+}

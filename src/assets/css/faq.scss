@@ -1,0 +1,85 @@
+@import url('./../font/font.css');
+.faq{
+    .page{
+        padding: 70px 0;
+        .box{
+            .container{
+                .tab-container{
+                    margin: 30px 0;
+                    justify-content: center;
+                    border: none;
+                    .nav-item{
+                        .nav-link{
+                            color: #000;
+                            text-align: center;
+                            font-family: Gilroy-Medium;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 26px; /* 144.444% */
+                            text-transform: uppercase;
+                            border: none;
+                            &.active,
+                            &:hover{
+                                color: #F6821F;
+                                border: none;
+                                border-bottom: 1px solid #F6821F;
+                            }
+                            &:focus{
+                                box-shadow: none !important;
+                            }
+                        }
+                    }
+                
+                    
+                    
+                }
+                .tab-content{
+                    .tabs{
+                        .accordion{
+                            .accordion-item{
+                                border: none;
+                                border-bottom: 1px solid  #D2D2D2;;
+                                .faqhead{
+                                    .accordion-button{
+                                        color: #000;
+                                        text-align: center;
+                                        font-family: Gilroy-Medium;
+                                        font-size: 18px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 26px; /* 144.444% */
+                                        box-shadow: none;
+                                        transition: all .3s linear;
+                                        &:not(.collapsed){
+                                            padding-bottom: 0;
+                                            background-color: transparent !important;
+                                            color: #004080;
+                                         
+                                        }
+                                    }
+                                }
+                                .accordion-collapse {
+                                    .faqbody {
+                                        p{
+                                            margin-bottom: 0;
+                                            color: #000;
+                                            font-family: Gilroy-Regular;
+                                            font-size: 18px;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            line-height: 26px; /* 144.444% */
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .faqbody{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

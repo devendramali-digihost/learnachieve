@@ -1,0 +1,119 @@
+@import url('./../font/font.css');
+.footer{
+    
+    background: #001D39;
+    .footer-content{
+        position: relative;
+        padding-bottom: 30px;
+        .container{
+            padding: 70px 0 0;
+            .row{
+                .footer-cont{
+                    p{
+                        margin-top: 20px;
+                        color: #FFF;
+                        font-family: Gilroy-Regular;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 26px; /* 144.444% */
+                    }
+                    .social{
+                        ul{
+                            display: flex;
+                            gap: 20px;
+                            list-style: none;
+                            padding: 0;
+                            li{
+                                border-radius: 6px;
+                                background: #E1E1E1;
+                                padding: 6px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                transition: all .3s linear;
+                                svg{
+                                    height: 20px;
+                                }
+                                &:hover{
+                                    background: #F6821F;
+                                    cursor: pointer;
+                                    svg{
+                                        path{
+                                            fill: #fff;
+                                            transition: all .3s linear;
+                                        }
+                                    }   
+                               }
+                            }
+
+                        }
+                    }
+                }
+                .fotermenu{
+                   padding-left: 40px;
+                    h4{
+                        color: #FFF;
+                        font-family: Gilroy-Medium;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 32px; /* 160% */
+                        text-transform: capitalize;
+                    }
+                    ul{
+                        list-style: none;
+                        padding: 0;
+                        li{
+                            color: #ffffff;
+                            font-family: Gilroy-Medium;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 29px; /* 181.25% */
+                            text-transform: capitalize;
+                            margin-bottom: 10px;
+                            transition: all .3s linear;
+                            a{
+                                color: #ffffff;
+                                text-decoration: none;
+                            }
+                            svg{
+                                margin-right: 10px;
+                            }
+                            &:hover{
+                                 color: #F6821F;   
+                                 cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+            hr{
+                color: #FFFFFF33;
+            }
+        }
+        .coypright{
+            p{
+                margin-bottom: 0;
+                color: #FFF;
+
+                /* Small - 14px reg */
+                font-family: Gilroy-Regular;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+                text-transform: capitalize;
+            }
+        }
+        .footer-bg{
+            position: absolute;
+            right: 0;
+            top: -50px;
+            img{
+                height: 450px;
+            }
+        }
+    }
+}

@@ -1,0 +1,135 @@
+@import url('./../font/font.css');
+.contact-page{
+    .page{
+        margin-top: 50px;
+        .container{
+            .row.backimg{
+                background-image: url(./../img/contact.png);
+                background-size: cover;
+                background-position: center;
+                border-radius: 30px;
+                .cont{
+                    padding: 40px;
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    p{
+                        display: none;
+                        color: #FFF;
+                        font-family: Gilroy-Regular;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 26px; /* 144.444% */
+                    }
+                }
+                .form-section{
+                    padding: 40px;
+                    .form1{
+                        padding: 30px;
+                        border-radius: 16px;
+                        background: #FFF;
+                        box-shadow: 0px 4px 11px 1px rgba(0, 0, 0, 0.13);
+                        h3{
+                            color: #000;
+                            font-family: Gilroy-SemiBold;
+                            font-size: 32px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 50px; /* 156.25% */
+                            text-transform: capitalize;
+                            margin-bottom: 20px;
+                        }
+                        form{
+                            .form-box{
+                                label{
+                                    color: #000;
+                                    font-family: Gilroy-SemiBold;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                    text-transform: capitalize;
+                                }
+                                .form-control{
+                                    border: none;
+                                    border-radius: 0;
+                                    border-bottom:1px solid #939393B2;
+                                    margin-bottom: 20px;
+                                    padding: 5px 0 10px 0;
+                                    &:focus{
+                                        box-shadow: none;
+                                    }
+                                    &::placeholder{
+                                        color: #656565;
+                                        font-family: Gilroy-Regular;
+                                        font-size: 16px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                 
+                }
+            }
+            .time{
+                margin: 70px 0 90px;
+                .row{
+                    gap: 20px 0;
+                    .contt{
+                        display: flex;
+                        padding: 40px;
+                        border-radius: 6px;
+                        background: #FFF;
+                        height: 100%;
+                        width: 100%;
+                        box-shadow: 0px 4px 18px 1px rgba(0, 0, 0, 0.10);
+                        align-items: center;
+                        .icon{
+                            height: fit-content;
+                            border-radius: 16px;
+                            background: #004080;
+                            padding: 10px;
+                         
+                        }
+                        ul{
+                            padding-left: 0;
+                            margin-left: 10px;
+                            list-style: none;
+                            margin-bottom: 0;
+                            li.heading{
+                                color: #000;
+                                font-family: Gilroy-Medium;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                margin-bottom: 5px;
+                            }
+                            li{
+                                color: #000;
+                                font-family: Gilroy-Medium;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 300;
+                                line-height: normal;
+                                a{
+                                    color: #000;
+                                    text-decoration: none;
+                                    font-family: Gilroy-Medium;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    line-height: normal;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
